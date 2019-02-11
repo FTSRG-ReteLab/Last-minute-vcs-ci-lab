@@ -1,18 +1,16 @@
 subprojects {
   apply plugin: 'java'
-
+/*
 test {
 	testLogging{
 		events "passed", "skipped", "failed"
 		exceptionFormat "full"
 	}
-}
+}*/
 
   repositories {
+  //mavenCentral()
     jcenter()
   }
-	
-	dependencies {
-    implementation 'com.google.guava:guava:27.0.1-jre'
-}
+    
 }
