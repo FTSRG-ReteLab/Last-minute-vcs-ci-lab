@@ -4,7 +4,7 @@ subprojects {
 test {
 	testLogging{
 		events "passed", "skipped", "failed"
-		exeptionFormat "full"
+		exceptionFormat "full"
 	}
 }
 
