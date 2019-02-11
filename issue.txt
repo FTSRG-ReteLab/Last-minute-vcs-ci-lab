@@ -1,1 +1,2 @@
-Issue new
+Issue solved
+New line
