@@ -14,12 +14,13 @@ import org.junit.Test;
 
 //import junit.framework.Assert;
 
-class TacoTableElement {
+public class TacoTableElement {
 
 	@Test
-	void tacotastetest() {
+	public void tacotastetest() {
 		Tachograph table = new Tachograph();
-		table.addTableElement(new Date(), 5, 7);
+		Date dys = new Date();
+		table.addTableElement(dys, 5, 7);
 		
 		assertFalse(table.isEmpty());
 	}
