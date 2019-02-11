@@ -1,10 +1,16 @@
 package hu.bme.mit.train.tachograph;
 
-import static org.junit.jupiter.api.Assertions.*;
+
+
+import static org.junit.Assert.assertFalse;
 
 import java.util.Date;
 
-import org.junit.jupiter.api.Test;
+
+
+import org.junit.Assert;
+
+import org.junit.Test;
 
 //import junit.framework.Assert;
 
