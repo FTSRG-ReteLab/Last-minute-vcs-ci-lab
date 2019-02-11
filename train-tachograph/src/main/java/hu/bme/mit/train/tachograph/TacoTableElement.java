@@ -15,7 +15,7 @@ class TacoTableElement {
 		Tachograph table = new Tachograph();
 		table.addTableElement(new Date(), 5, 7);
 		
-		Assert.assertEquals(false, table.isEmpty());
+		assertFalse(table.isEmpty());
 	}
 
 }
