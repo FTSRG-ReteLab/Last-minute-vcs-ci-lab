@@ -1,6 +1,13 @@
 subprojects {
   apply plugin: 'java'
 
+test {
+	testLogging{
+		events "passed", "skipped", "failed"
+		exeptionFormat "full"
+	}
+}
+
   repositories {
     jcenter()
   }
